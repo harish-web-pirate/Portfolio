@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harish R's Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <a href="https://bhaskaracharjee.github.io/Portfolio-Website/">
+          <figure class="avatar-box">
+            <img loading="lazy" src="./assets/images/my-avatar.png" alt="Bhaskar Acharjee" width="80" />
+          </figure>
+        </a>
+
+        <div class="info-content">
+          <h1 class="name" title="Bhaskar Acharjee">Harish R</h1>
+          <p class="title" id="typing-animation"></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <a href="mailto:harishr.cs23@gmail.com" class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:harishr.cs23@gmail.com" class="contact-link">harishr.cs23@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <a href="tel:+8870832669" class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </a>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8870832669" class="contact-link">(+91) 8870832669</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-04-14">December 18</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <a href="https://www.google.com/maps?q=Barasat,+North+24+Pgs,+Kolkata-700124,+West+Bengal,+India"
+              class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </a>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>
+                Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu, India
+              </address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/harish-r-1232232b8/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/harish_2k_5_/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/harish-web-pirate" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href=" " class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar-info_more">
+        <a href=" " target="_blank"
+          class="download-btn">
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download Resume</span>
+        </a>
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievement</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- /*-----------------------------------*\ -->
+      <!-- About -->
+      <!-- \*-----------------------------------*/ -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a highly motivated and diligent individual pursuing a
+            Bachelor of Technology degree in Computer Science And Engineering at
+            Bannari Amman Institute Of Technology. With a strong academic
+            record and proficiency in programming languages like Java, Python,
+            C/C++, and SQL. I have developed Android applications and also
+            gained expertise in Data visualization. Additionally, I actively
+            contribute to the Training and Placement Cell as a role of
+            Placement Coordinator. With my strong educational background,
+            technical skills, and leadership experiences, I am well-prepared
+            to take on challenges and contribute effectively to any
+            professional setting relevant with my work profile.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Creating visually appealing graphics and web designs to enhance online presence.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Building interactive and responsive websites for a seamless user experience.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+
+                <p class="service-item-text">
+                  Developing mobile applications to provide functionality and engagement on smartphones.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-desktop.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desktop Application Development</h4>
+
+                <p class="service-item-text">
+                  Crafting desktop applications using Python to offer powerful and versatile solutions for various
+                  purposes.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- /*-----------------------------------*\ -->
+        <!-- Tech Stacks -->
+        <!-- \*-----------------------------------*/ -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Tech Stacks</h3>
+
+          <ul class="clients-list has-scrollbar" id="techStacksList">
+            <!-- The list will be dynamically generated here -->
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Kiran Patel" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Jeni Susu
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Harish's expertise in web and app development is truly commendable. He brings a unique blend of
+                    creativity and technical proficiency to every project. His commitment to quality and innovation
+                    makes him a standout developer. Working with Harish has been an inspiring experience.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Divya Singh" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Dokku Divya
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I've worked closely with Harish on various Python projects, and his coding skills are truly
+                    impressive. He brings a depth of knowledge and a passion for clean, scalable code. Harish's
+                    collaborative approach and willingness to share insights make him an excellent teammate. I highly
+                    recommend him as a Python developer.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Nilasha Laskar" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  harini haran
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Harish has an incredible eye for design and a knack for creating visuals that resonate with
+                    audiences. His work as a graphic designer is marked by innovation and a deep understanding of design
+                    principles. Collaborating with Harish is not just a project; it's an opportunity to elevate the
+                    visual identity of any brand.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Aditya Anand" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Abi Theja
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Harish's YouTube channel is a testament to his creativity and storytelling abilities. His content
+                    is not only entertaining but also educational. Harish R has successfully carved a niche for himself
+                    in the YouTube space, and his passion for creating valuable and enjoyable content is evident in
+                    every video.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Kiran Patel" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Kiran Patel</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Harish is a tech virtuoso with a flair for innovation. His web/app development skills bring ideas to
+                  life with seamless functionality. In Python coding, his proficiency and collaborative approach make
+                  him an invaluable team member. As a graphic designer, Harish's creativity elevates brand visuals, and
+                  his YouTube content showcases a unique blend of entertainment and education. A true multi-talent,
+                  Harish consistently delivers excellence across diverse domains.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </article>
+
+      <!-- /*-----------------------------------*\ -->
+      <!-- Resume -->
+      <!-- \*-----------------------------------*/ -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Bannari Amman Institute of Technology
+              </h4>
+
+              <span>2027 — Present</span>
+              <p class="timeline-text">
+                Computer Sciense and Engineering
+              </p>
+              <p class="timeline-text"><b>CGPA : </b> 7.89</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Trinity International School [CBSE]
+              </h4>
+
+              <span>2022 — 2023</span>
+              <p class="timeline-text">Higher Secondary (CS)</p>
+              <p class="timeline-text"><b>Percentage : </b>80.00%</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Trinity International School [CBSE]
+              </h4>
+
+              <span>2020 — 2021</span>
+              <p class="timeline-text">Secondary</p>
+              <p class="timeline-text"><b>Percentage : </b>100%</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Voluenteering</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Web Designer, Event Manager, Elementary Lead
+              </h4>
+
+              <span>January 2024 — April 2024</span>
+
+              <p class="timeline-text">
+                Still Waiting for the opportunity
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Club Coordinator</h4>
+
+              <span>March 2025 — Present</span>
+
+              <p class="timeline-text">
+                Code Circle Club Manager, Bannari Amman Institute of Technology
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cashier</h4>
+
+              <span>December 2024 — Present</span>
+
+              <p class="timeline-text">
+                Center for Innovation (CFI) Club, Bannari Amman Institute of Technology
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- /*-----------------------------------*\ -->
+        <!-- Skills -->
+        <!-- \*-----------------------------------*/ -->
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <div class="skills-wrapper">
+            <div class="skills-column">
+              <h4 class="column-title">Technical Skills</h4>
+              <ul class="skills-list content-card" id="technicalSkillsList">
+                <!-- Technical skills items will be added here dynamically -->
+              </ul>
+            </div>
+            <div class="skills-column">
+              <h4 class="column-title">Soft Skills</h4>
+              <ul class="skills-list content-card" id="softSkillsList">
+                <!-- Soft skills items will be added here dynamically -->
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- /*-----------------------------------*\ -->
+      <!-- PORTFOLIO -->
+      <!-- \*-----------------------------------*/ -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App Development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Project 1 -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://melodymorph.onrender.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/melodymorph.png" alt="Melody Morph" loading="lazy">
+                </figure>
+                <h3 class="project-title">Melody Morph</h3>
+                <p class="project-description">Audio analysis and melody transformation.</p>
+              </a>
+            </li>
+
+            <!-- Project 2 -->
+            <li class="project-item active" data-filter-item data-category="python projects">
+              <a href="https://github.com/BhaskarAcharjee/PixelCraft" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/pixelcraft.png" alt="Pixel Craft" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pixel Craft</h3>
+                <p class="project-description">Image editing with PIL library.</p>
+              </a>
+            </li>
+
+            <!-- Project 3 -->
+            <li class="project-item active" data-filter-item data-category="app development">
+              <a href="https://github.com/BhaskarAcharjee/CorvasNotesApp" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/notesapp.png" alt="Notes App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Notes App</h3>
+                <p class="project-description">Versatile tool for organizing notes.</p>
+              </a>
+            </li>
+
+            <!-- Project 4 -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://net-worth-tracker.netlify.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/financetracker.png" alt="Finance Tracker" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance Tracker</h3>
+                <p class="project-description">User-friendly financial management web app.</p>
+              </a>
+            </li>
+
+            <!-- Project 5 -->
+            <li class="project-item active" data-filter-item data-category="python projects">
+              <a href="https://github.com/BhaskarAcharjee/SudokuSolver" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/sudokusolver.png" alt="Sudoku Solver" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sudoku Solver</h3>
+                <p class="project-description">Efficient Sudoku solver algorithm.</p>
+              </a>
+            </li>
+
+            <!-- Project 6 -->
+            <li class="project-item active" data-filter-item data-category="python projects">
+              <a href="https://github.com/BhaskarAcharjee/MorseEnigma" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/morseenigma.png" alt="Morse Enigma" loading="lazy">
+                </figure>
+                <h3 class="project-title">Morse Enigma</h3>
+                <p class="project-description">Communication system with Morse code encryption.</p>
+              </a>
+            </li>
+
+            <!-- Project 7 -->
+            <li class="project-item active" data-filter-item data-category="python projects">
+              <a href="https://github.com/BhaskarAcharjee/AIConverse" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/aiconverse.png" alt="AIConverse" loading="lazy">
+                </figure>
+                <h3 class="project-title">AIConverse</h3>
+                <p class="project-description">Advanced chatbot platform with AI.</p>
+              </a>
+            </li>
+
+            <!-- Project 8 -->
+            <li class="project-item active" data-filter-item data-category="python projects">
+              <a href="https://github.com/BhaskarAcharjee/HandSphere" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/handsphere.png" alt="HandSphere" loading="lazy">
+                </figure>
+                <h3 class="project-title">HandSphere</h3>
+                <p class="project-description">Gesture-based gaming with hand cricket.</p>
+              </a>
+            </li>
+
+            <!-- Project 9 -->
+            <li class="project-item active" data-filter-item data-category="app development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/attandenceapp.png" alt="Attendance App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Attendance App</h3>
+                <p class="project-description">Convenient solution for managing attendance.</p>
+              </a>
+            </li>
+
+            <!-- Project 10 -->
+            <li class="project-item active" data-filter-item data-category="app development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/expensetrackerapp.png" alt="Expense Tracker App"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Expense Tracker App</h3>
+                <p class="project-description">Powerful tool for tracking personal expenses.</p>
+              </a>
+            </li>
+
+            <!-- Project 11 -->
+            <li class="project-item active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/BhaskarAcharjee/Student-Results-Analysis" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/student_results_analysis.png" alt="Student Results Analysis"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Student Results Analysis</h3>
+                <p class="project-description">Analyzing student results to uncover insights.</p>
+              </a>
+            </li>
+
+            <!-- Project 12 -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://bhaskaracharjee.github.io/Cricket-Calculator/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/cricketcalculator.png" alt="Cricket Calculator" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cricket Calculator</h3>
+                <p class="project-description">Web app for calculating cricket metrics.</p>
+              </a>
+            </li>
+
+            <!-- Project 13 -->
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/174824905/Carousel-Instagram-Post-for-StudyMonk" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/studymonkinstaad.png" alt="Carousel Instagram Post"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Carousel Instagram Post</h3>
+                <p class="project-description">Instagram carousel post for StudyMonk.</p>
+              </a>
+            </li>
+
+            <!-- Project 14 -->
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/174268297/Poster-Design-for-College-Museum/modules/984020541"
+                target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/Museum Poster.png" alt="Poster Design" loading="lazy">
+                </figure>
+                <h3 class="project-title">Poster Design</h3>
+                <p class="project-description">Poster design for College Museum.</p>
+              </a>
+            </li>
+
+            <!-- Project 15 -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://bhaskaracharjee.github.io/Portfolio-Website/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projects_img/My_Personal_Portfolio.png" alt="Personal Portfolio"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Personal Portfolio</h3>
+                <p class="project-description">Showcasing skills, projects, and experiences.</p>
+              </a>
+            </li>
+
+            <!-- Remaining projects -->
+
+          </ul>
+
+        </section>
+      </article>
+
+      <!-- /*-----------------------------------*\ -->
+      <!-- ACHIEVEMENTS -->
+      <!-- \*-----------------------------------*/ -->
+
+      <article class="blog" data-page="achievement">
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/deloitte_certificate.png" alt="Deloitte Virtual Experience"
+                    loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Deloitte Virtual Experience
+                  </h3>
+
+                  <p class="blog-text">
+                    Certificate of Completion of Deloitte Virtual Experience
+                    Program
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/cloudprogram_certificate.jpeg" alt="30 Days Google Cloud Program"
+                    loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Cloud</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    30 Days Google Cloud Program
+                  </h3>
+
+                  <p class="blog-text">
+                    Certificate of Completion of 30 days of Google Cloud
+                    Program
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/EDUCBA_Certificate.jpg" alt="Android Training" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Android Dev</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 16, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Android Training</h3>
+
+                  <p class="blog-text">
+                    Certificate of Completion of Android Mobile Nougat Apps Training
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Digital India Quiz Participation Certificate.jpg" alt="Digital india Quiz"
+                    loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Quiz</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Digital india Quiz
+                  </h3>
+
+                  <p class="blog-text">
+                    Certificate of Participation in Digital India Quiz
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- /*-----------------------------------*\ -->
+      <!-- CONTACT -->
+      <!-- \*-----------------------------------*/ -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://maps.google.com/maps?q=Barasat&t=&z=13&ie=UTF8&iwloc=&output=embed" width="400"
+              height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" name="submit-to-google-sheet" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="Name" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="Email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="Message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
